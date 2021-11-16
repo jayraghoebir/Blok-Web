@@ -39,11 +39,15 @@ Responsive
 https://www.krispykreme.co.uk/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Landings pagina Krispy Kreme website  
+ 
+Landings pagina Krispy Kreme website
+ 
 <img src="images/landings-pagina.png" width="375px" alt="Landings pagina van de Krispy Kreme website.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Order online pagina Krispy Kreme website
+ 
+Fundraising pagina Krispy Kreme website
+ 
 <img src="images/fundraising-pagina.png" width="375px" alt="Fundraising pagina van de Krispy Kreme website.">
  
 </details>
