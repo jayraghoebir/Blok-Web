@@ -40,11 +40,11 @@ https://www.krispykreme.co.uk/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Landings pagina Krispy Kreme website  
-<img src="images/landings-pagina-kk" width="375px" alt="Landings pagina van de Krispy Kreme website.">
+<img src="images/landings-pagina-kk.png" width="375px" alt="Landings pagina van de Krispy Kreme website.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Order online pagina Krispy Kreme website
-<img src="images/order-pagina-kk" width="375px" alt="Order pagina van de Krispy Kreme website.">
+<img src="images/order-pagina-kk.png" width="375px" alt="Order pagina van de Krispy Kreme website.">
  
 </details>
 
