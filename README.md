@@ -60,10 +60,10 @@ Fundraising pagina Krispy Kreme website
 <!-- <summary>uitwerken na afloop 2e werkgroep</summary> -->
 
 ### De hele pagina: 
-<img src="images/Breakdownschets-FED-Raghoebir-Jay.jpg" width="375px" alt="breakdown van de hele pagina">
+<img src="images/Breakdownschets-FED-Raghoebir-Jay.jpg" width="375px" alt="Breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### Dynamisch deel (menu): 
+<img src="images/Breakdownschets-FED-Raghoebir-Jay-menu.jpg" width="375px" alt="Breakdown van de menu">
 
 ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
