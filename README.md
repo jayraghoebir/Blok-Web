@@ -83,7 +83,7 @@ Fundraising pagina Krispy Kreme website
 hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 Content verzamelen ging heel makkelijk! (dankzij Robert natuurlijk ;)) Ik heb alle content verzameld en de breakdown schets helpt me heel erg met het plaatsen van mijn content in het HTML bestand. Ik heb ook al een deel gestyled (ik ben erg perfectionistisch). Ik heb de echte website ernaast staan en vergelijk het vaak om te kijken of ik het goed doe. Tot nu toe is alles nog wel gelukt, alleen het centreren van tekst in de button/ link was wel lastig. Ik heb Bo om hulp gevraagd erbij en het is nu wel gelukt.
  
-<img src="images/button-screenshot.png" width="375px" alt="Screenshot van de button">
+<img src="images/" width="375px" alt="Screenshot van de button">
  
 <img src="images/code-voor-button.png" width="375px" alt="Screenshot code button">
 
