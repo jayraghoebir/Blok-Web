@@ -1,0 +1,293 @@
+/* css reset */
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* fonts import */
+
+@font-face {
+    font-family: claude sans;
+    src: url(../fonts/Claude_Sans_Bold_Italic_Plain.ttf);
+}
+
+/* css variabelen */
+
+:root {
+    --background-color: #fff;
+    --second-background-color: #016938;
+
+    --text-color-white: #fff;
+    --text-color-green: #016938;
+    --text-color-red: #C30823;
+    --text-color-black: #000;
+
+    --first-button-color: #BA8B52;
+    --second-button-color: #C30823;
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--background-color);
+    height: 4.2em;
+}
+
+nav > img {
+    width: 32%;
+}
+
+/* homepage styling */
+
+main > div {
+    background-color: var(--second-background-color);
+    height: 3.35em;
+}
+
+section:nth-of-type(1){
+    background-image: url(../img/home/Decadent_desserts_mobile.jpeg);
+    background-repeat: no-repeat;
+    background-size: 23.5em;
+    background-position-x: 50%;
+    background-position-y: 12%;
+
+    margin: 0;
+    padding: 0;
+    padding-top: 7em;
+    padding-bottom: 10em;
+
+    height: 30.3em;
+}
+
+p {
+    font-family: claude sans, sans-serif;
+    font-size: 28px;
+
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+    padding-bottom: .5em;
+
+    color: var(--text-color-white);
+}
+
+h1 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+
+    text-align: center;
+    line-height: 1.1em;
+    width: 97%;
+    
+
+    color: var(--text-color-white);
+    text-transform: uppercase;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    margin-top: 2em;
+    background-color: var(--first-button-color);
+
+    margin: 0;
+    padding: 0;
+
+    margin-left: 28%;
+    margin-right: 28%;
+    margin-top: 2em;
+    padding: .77em;
+
+    border-radius: 30px;
+}
+
+a > p{
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    margin: 0;
+    padding: 0;
+
+    color: var(--text-color-white);
+}
+
+a > img {
+    width: 9px;
+    margin-left: 1.8em;
+}
+
+main > img {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -24%;
+
+    width: 80%;
+}
+
+section:nth-of-type(2) {
+    margin-top: 7.5em;
+    padding-top: 3.7em;
+
+    border-radius: 1.2em;
+    background-color: var(--second-background-color)
+}
+
+section:nth-of-type(2) > p:nth-of-type(2) {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 1.5em;
+}
+
+section:nth-of-type(2) > p:nth-of-type(2) > span {
+    font-weight: 700;
+}
+
+section:nth-of-type(2) > a {
+    margin-left: 21%;
+    margin-right: 21%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    padding: .9em;
+
+    background-color: var(--second-button-color); 
+    box-shadow: 0px 10px 30px -2px rgba(0,0,0,0.25);
+}
+
+section:nth-of-type(2) > a > p {
+    font-size: 18px;
+}
+
+section:nth-of-type(2) > img {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.7em;
+    padding-bottom: 1em;
+
+    width: 90%;
+}
+
+main > img:nth-of-type(2) {
+    margin: 0;
+    padding: 0;
+    margin-top: 7.5em;
+
+    width: 100%;
+}
+
+section:nth-of-type(3) {
+    padding-top: 4.7em;
+    padding-bottom: 3.7em;
+    margin-top: -1em;
+
+    background-color: #F5F6F8;
+    border-radius: 1.2em;
+}
+
+section:nth-of-type(3) > p:nth-of-type(1) {
+    margin-left: 2em;
+    margin-right: 2em;
+
+    color: var(--text-color-red);
+}
+
+section:nth-of-type(3) > h1 {
+    color: var(--text-color-green);
+}
+
+section:nth-of-type(3) > p:nth-of-type(2) {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+    color: var(--text-color-black);
+
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 1.5em;
+}
+
+section:nth-of-type(3) > a {
+    background-color: var(--second-button-color);
+}
+
+section:nth-of-type(4) {
+    padding-top: 3.7em;
+    padding-bottom: 3.7em;
+    margin-top: 3.7em;
+
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section:nth-of-type(4) > ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    list-style-type: none;
+
+}
+
+section:nth-of-type(4) > ul > li:nth-of-type(1) {
+    border-radius: 1.2em;
+    background-image: url(../img/home/Decadent_desserts_driver.jpg);
+    background-size: 171%;
+    background-repeat: no-repeat;
+    background-position-x: -7.2em;
+
+    height: 430px;
+}
+
+section:nth-of-type(4) > ul > li:nth-of-type(1) > img {
+    display: flex;
+    justify-content: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90%;
+    width: 15%;
+}
+
+section:nth-of-type(4) > ul > li:nth-of-type(2) {
+    margin-top: 1.5em;
+
+    border-radius: 1.2em;
+    background-image: url(../img/home/Creations_driver_Without_Offer_1.jpg);
+    background-size: 171%;
+    background-repeat: no-repeat;
+    background-position-x: -7.2em;
+
+    height: 430px;
+}
+
+section:nth-of-type(4) > ul > li:nth-of-type(2) > img {
+    display: flex;
+    justify-content: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90%;
+    width: 15%;
+}
