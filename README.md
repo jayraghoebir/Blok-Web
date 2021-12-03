@@ -114,8 +114,8 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ## Voortgang 2 (week 3)
 
-<!-- <details>
-<summary>uitwerken voor 2e voortgang</summary> -->
+<details>
+<!-- <summary>uitwerken voor 2e voortgang</summary> -->
 
 ### Stand van zaken
 De code schrijven zelf gaat heel goed. Het stylen gaat ook goed, maar ik merk zelf dat dat wat meer aandacht nodig heeft dan het schrijven van de code. Soms is er al styling op toegepast, en kreeg ik het eerst niet meer 'normaal'. Uiteindelijk toch gelukt door een beetje de opties te bekijken in Studio Visual Code. Het is nu een kwestie van verder werken en de oefeningen maken zodat het allemaal straks een stuk makkelijker wordt.
