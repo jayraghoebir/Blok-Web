@@ -76,7 +76,7 @@ Fundraising pagina Krispy Kreme website
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
 <!-- <summary>uitwerken voor 1e voortgang</summary> -->
 
 ### Stand van zaken
