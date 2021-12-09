@@ -22,7 +22,7 @@ Jay Raghoebir
 Rood
 
 #### Je focus:
-Responsive
+Surface
  
 </details>
 
