@@ -48,7 +48,7 @@ Landings pagina Krispy Kreme website
  
 Fundraising pagina Krispy Kreme website
  
-<img src="images/fundraising-pagina.png" width="375px" alt="Fundraising pagina van de Krispy Kreme website.">
+<img src="images/fundraising-pagin.png" width="375px" alt="Fundraising pagina van de Krispy Kreme website.">
  
 </details>
 
