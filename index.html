@@ -12,15 +12,35 @@
 </head>
 <body>
     <header>
-        <nav>
+        <img src="img/home/hamburger-menu-icon.svg" alt="Hamburger menu icon" id="hamburgericon">
+        <img src="img/home/kk_logo.svg" alt="Krispy Kreme logo" id="logokk">
+        <img src="img/home/basket-icon.svg" alt="Basket icon" id="winkelwagen">  
+        
+        <nav id="navigation">
+            <img src="img/home/menu-kruis.svg" alt="Hamburger menu sluiten" id="menukruis">
             <img src="img/home/kk_logo.svg" alt="Krispy Kreme logo">
+            
+            <ul>
+                <li><a href="#">MENU</a></li>
+                <li><a href="#">FUNDRAISING</a></li>
+                <li><a href="#">CELEBRATIONS</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">REWARDS</a></li>
+                <li><a href="#">STORES</a></li>
+                <li><a href="#">SIGN IN/REGISTER</a></li>
+                <li><a href="#">ORDER ONLINE</a></li>
+            </ul>
+
+            <p>Can’t find what you’re looking for?</p>
+            
+            <input type="search" placeholder="Enter your search" id="searchnav">
         </nav>
     </header>
 
     <main>
         <div>
-
         </div>
+        
         <section> 
             <!-- nth of type 1 -->
             <p>Introducing...</p>
@@ -69,20 +89,18 @@
             </a>
         </section>
 
-        <section>
-            <!-- nth of type 4 -->
-            <ul>
-                <li>
-                    <img src="img/home/arrow-in-circle-02.svg" alt="Arrow in circle">
-                </li>
-                <li>
-                    <img src="img/home/arrow-in-circle-02.svg" alt="Arrow in circle">
-                </li>
-            </ul>
-        </section>
+        <ul class="boxes">
+            <!-- ul nth of type 1 -->
+            <li>
+                <img src="img/home/arrow-in-circle-02.svg" alt="Arrow in circle">
+            </li>
+            <li>
+                <img src="img/home/arrow-in-circle-02.svg" alt="Arrow in circle">
+            </li>
+        </ul>
 
         <section>
-            <!-- nth of type 5 -->
+            <!-- nth of type 4 -->
             <h1>Serving smiles safely</h1>
 
             <p>We continue to follow government guidelines to keep our staff and customers safe and smiling!
@@ -107,7 +125,30 @@
 
             </ul>
         </section>
+
+        <ul>
+            <!-- ul nth of type 2 -->
+            <li>
+                <img id="madefresh" src="img/home/Icon_Made_Fresh.png" alt="Icon made fresh">
+            </li>
+            <li>
+                <img id="handcrafted" src="img/home/Icon_Hand_Crafted.png" alt="Icon hand crafted">
+            </li>
+            <li>
+                <img id="hotlight" src="img/home/Icon_Hotlight.png" alt="Icon hot light">
+            </li>
+        </ul>
+
+        <section>
+            <!-- nth of type 5 -->
+            <p>Today's</p>
+
+            <h1>Popular orders</h1>
+        </section>
+
     </main>
+
+    <script src="script/script.js"></script>
     
 </body>
 </html>
