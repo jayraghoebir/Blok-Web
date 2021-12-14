@@ -9,7 +9,7 @@
 /* fonts import */
 
 @font-face {
-    font-family: claude sans;
+    font-family: 'claude sans';
     src: url(../fonts/Claude_Sans_Bold_Italic_Plain.ttf);
 }
 
@@ -39,28 +39,50 @@ header {
     height: 4.2em;
 
     padding: 0em 1em;
-    height: 7.2vh;
     width: 100vw;
 }
 
+header a:nth-of-type(1) {
+    background-color: unset;
+    box-shadow: unset;
+    border-radius: unset;
+
+    padding: 0;
+    margin: 0;
+}
+
+header a:nth-of-type(1):hover {
+    transform: unset;
+}
+
+button:nth-of-type(1), button:nth-of-type(2) {
+    border: none;
+    background-color: unset;
+}
+
 #hamburgericon {
-    width: 5%;
+    width: 1.7em;
     cursor: pointer;
 }
 
 #logokk {
-    width: 25%;
+    width: 7.5em;
     cursor: pointer;
+    padding: 0;
+    margin: 0;
 }
 
 #winkelwagen {
-    width: 6%;
+    width: 2.2em;
     cursor: pointer;
+    transition: 0.5s;
 }
 
 #winkelwagen:hover {
-    width: 7%;
+    transform: scale(1.3);
 }
+
+/* hamburgermenu styling */
 
 #navigation{
     position: fixed;
@@ -74,30 +96,33 @@ header {
  
     height: 100vh;
     width: 80vw;
-
 }
 
 #navigation.toonmenu{
     transform:translateX(0);
 }
 
-#navigation img:nth-of-type(1) {
+#navigation button #menukruis {
     position: absolute;
     top: 1em;
     left: .5em;
-    width: 7.5%;
+    width: 2em;
     margin-left: 1em;
     cursor: pointer;
 }
 
-#navigation img:nth-of-type(2) {
+#navigation a img:nth-of-type(1) {
     display: block;
+
+    margin: 0;
+    padding: 0;
+
+    margin-top: -1.1em;
     margin-left: auto;
     margin-right: auto;
 
-    margin-top: 1em;
 
-    width: 30%;
+    width: 7.5em;
 }
 
 #navigation ul {
@@ -115,7 +140,7 @@ header {
 
     font-family: brandon-grotesque, sans-serif;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1em;
     color: var(--text-color-green);
     text-decoration: none;
     text-align: left;
@@ -129,10 +154,11 @@ header {
 
 #navigation a:hover {
     text-decoration: underline;
+    transform: unset;
 }
 
 #navigation a:focus {
-    border: 1px solid rgb(124, 124, 124);
+    border: 0.0625em solid rgb(124, 124, 124);
 }
 
 #navigation ul li:nth-of-type(8) a {
@@ -149,7 +175,7 @@ header {
 
     font-family: brandon-grotesque, sans-serif;
     font-weight: 100;
-    font-size: 18px;
+    font-size: 1.125em;
     text-align: left;
 
     margin-left: 1.5em;
@@ -160,34 +186,37 @@ header {
     margin-left: 1.5em;
     margin-top: 1.8em;
     padding: 1.1em 5.2em;
-    border-radius: 60px;
-    border: 1px solid rgb(136, 136, 136);
-  }
+    border-radius: 3.75em;
+    border: 0.0625em solid rgb(136, 136, 136);
+}
   
-  #searchnav::placeholder {
+#searchnav::placeholder {
     color: rgb(136, 136, 136);
     font-family: brandon-grotesque, sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     text-align: center;
-  }
+}
   
-  #searchnav:focus {
+#searchnav:focus {
     caret-color: rgb(94, 94, 94);
-  }
+}
+
+/* eind hamburgermenu styling */
 
 /* homepage styling */
 
-main > div {
+main div {
     background-color: var(--second-background-color);
     height: 7.5em;
 }
+
+/* eerste section styling */
 
 section:nth-of-type(1){
     background-image: url(../img/home/Decadent_desserts_mobile.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-x: 50%;
-    background-position-y: 12%;
+    background-position-y: -3em;
 
     margin: 0;
     padding: 0;
@@ -198,8 +227,8 @@ section:nth-of-type(1){
 }
 
 p {
-    font-family: claude sans, sans-serif;
-    font-size: 28px;
+    font-family: 'claude sans', sans-serif;
+    font-size: 1.75em;
 
     text-align: center;
 
@@ -211,14 +240,14 @@ p {
 }
 
 h1 {
-    font-family: brandon-grotesque, sans-serif;
+    font-family: 'brandon-grotesque', sans-serif;
     font-weight: 700;
-    font-size: 38px;
+    font-size: 2.375em;
 
     text-align: center;
     line-height: 1.1em;
-    width: 97%;
-    
+
+    margin-top: 0.5em;
 
     color: var(--text-color-white);
     text-transform: uppercase;
@@ -240,15 +269,28 @@ a {
     margin-top: 2em;
     padding: .77em;
 
-    border-radius: 30px;
-    box-shadow: 0px 10px 30px -2px rgba(0,0,0,0.25);
+    border-radius: 1.875em;
+    box-shadow: 0em 0.625em 1.875em -0.125em rgba(0,0,0,0.25);
+    transition: 0.5s;
+}
+
+a:hover {
+    transform: scale(1.15);
+}
+
+a:focus {
+    background-color: #946a36 ;
+}
+
+a:active {
+    background-color: #724e22;
 }
 
 a > p{
-    font-family: brandon-grotesque, sans-serif;
+    font-family: 'brandon-grotesque', sans-serif;
     font-weight: 700;
     text-align: center;
-    font-size: 16px;
+    font-size: 1em;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
@@ -260,7 +302,7 @@ a > p{
 }
 
 a > img {
-    width: 9px;
+    width: 0.5625em;
     margin-left: 1.8em;
 }
 
@@ -271,8 +313,12 @@ section:nth-of-type(1) > img {
     margin-right: auto;
     margin-top: 3em;
 
-    width: 80%;
+    width: 25em;
 }
+
+/* eerste section styling eind */
+
+/* tweede section styling  */
 
 section:nth-of-type(2) {
     margin-top: 18.5em;
@@ -283,12 +329,12 @@ section:nth-of-type(2) {
 }
 
 section:nth-of-type(2) > p:nth-of-type(2) {
-    font-family: brandon-grotesque, sans-serif;
-    font-size: 18px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 1.125em;
     text-align: center;
 
-    margin-left: 11%;
-    margin-right: 11%;
+    margin-left: 3.4375em;
+    margin-right: 3.4375em;
     margin-top: 1.5em;
 }
 
@@ -304,11 +350,19 @@ section:nth-of-type(2) > a {
     padding: .9em;
 
     background-color: var(--second-button-color); 
-    box-shadow: 0px 10px 30px -2px rgba(0,0,0,0.25);
+    box-shadow: 0em 0.625em 1.875em -0.125em rgba(0,0,0,0.25);
+}
+
+section:nth-of-type(2) a:focus {
+    background-color: #92071c ;
+}
+
+section:nth-of-type(2) a:active {
+    background-color: #610412;
 }
 
 section:nth-of-type(2) > a > p {
-    font-size: 18px;
+    font-size: 1.125em;
 }
 
 section:nth-of-type(2) > img {
@@ -319,16 +373,22 @@ section:nth-of-type(2) > img {
     margin-top: 3.7em;
     padding-bottom: 1em;
 
-    width: 90%;
+    width: 28.125em;
 }
+
+/* tweede section styling eind */
+
+/* rewards picture styling */
 
 main > img:nth-of-type(1) {
     margin: 0;
     padding: 0;
     margin-top: 7.5em;
 
-    width: 100%;
+    width: 31.25em;
 }
+
+/* derde section styling */
 
 section:nth-of-type(3) {
     padding-top: 4.7em;
@@ -351,14 +411,14 @@ section:nth-of-type(3) > h1 {
 }
 
 section:nth-of-type(3) > p:nth-of-type(2) {
-    font-family: brandon-grotesque, sans-serif;
-    font-size: 18px;
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 1.125em;
     text-align: center;
 
     color: var(--text-color-black);
 
-    margin-left: 11%;
-    margin-right: 11%;
+    margin-left: 3.4375em;
+    margin-right: 3.4375em;
     margin-top: 1.5em;
 }
 
@@ -371,6 +431,18 @@ section:nth-of-type(3) > a {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+section:nth-of-type(3) a:focus {
+    background-color: #92071c ;
+}
+
+section:nth-of-type(3) a:active {
+    background-color: #610412;
+}
+
+/* derde section styling eind */
+
+/* twee boxen styling */
 
 .boxes {
     padding-top: 3.7em;
@@ -401,8 +473,8 @@ section:nth-of-type(3) > a {
     
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80%;
-    width: 15%;
+    margin-top: 24em;
+    width: 3.75em;
 }
 
 .boxes > li:nth-of-type(2) {
@@ -423,9 +495,13 @@ section:nth-of-type(3) > a {
     
     margin-left: auto;
     margin-right: auto;
-    margin-top: 80%;
-    width: 15%;
+    margin-top: 24em;
+    width: 3.75em;
 }
+
+/* twee boxen styling eind */
+
+/* vierde section styling */
 
 section:nth-of-type(4) {
     margin: 1.5em;
@@ -443,7 +519,7 @@ section:nth-of-type(4) > h1 {
 
 section:nth-of-type(4) > p {
     font-family: brandon-grotesque, sans-serif;
-    font-size: 18px;
+    font-size: 1.125em;
 
     margin-top: 1em;
 
@@ -475,12 +551,12 @@ section:nth-of-type(4) > ul > li {
 }
 
 section:nth-of-type(4) > ul > li > img {
-    width: 50%;
+    width: 12.625em;
 }
 
 section:nth-of-type(4) > ul > li > h3 {
     font-family: brandon-grotesque, sans-serif;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 700;
     text-transform: uppercase;
 
@@ -489,12 +565,16 @@ section:nth-of-type(4) > ul > li > h3 {
 
 section:nth-of-type(4) > ul > li > p {
     font-family: brandon-grotesque, sans-serif;
-    font-size: 18px;
+    font-size: 1.125em;
 
     margin-top: 1em;
 
     color: var(--text-color-black);
 }
+
+/* vierde section styling eind */
+
+/* 3 icons styling */
 
 ul:nth-of-type(2) {
     display: grid;
@@ -512,7 +592,7 @@ ul:nth-of-type(2) > li > img {
     margin-left: auto;
     margin-right: auto;
 
-    width: 35%;
+    width: 10.9375em;
 }
 
 ul:nth-of-type(2) > li:nth-of-type(1) {
@@ -526,28 +606,579 @@ ul:nth-of-type(2) > li:nth-of-type(1) {
     margin-left: auto;
     margin-right: auto;
 
-    width: 38%;
+    width: 11.875em;
 }
 
 #handcrafted {
-    width: 80%;
+    width: 11.875em;
 }
 
 #hotlight {
-    width: 80%;
+    width: 11.875em;
 }
 
+/* 3 icons styling eind */
+
+/* vijfde section styling */
+
 section:nth-of-type(5) {
-    background-color: violet;
-    height: 30em;
     margin: 0em 1.5em;
     margin-top: 7.4em;
 }
 
 section:nth-of-type(5) p {
     color: var(--text-color-red);
+
+    padding: 0;
+    margin: 0;
 }
 
 section:nth-of-type(5) h1 {
     color: var(--text-color-green);
+
+    padding: 0;
+    margin: 0;
 }
+
+section:nth-of-type(5) ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+section:nth-of-type(5) ul li {
+    width: 50%;
+}
+
+section:nth-of-type(5) ul li:nth-of-type(1) img:nth-of-type(1) {
+    margin: 0;
+    padding: 0;
+    
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 14em;
+}
+
+section:nth-of-type(5) ul li:nth-of-type(1) img:nth-of-type(2) {
+    margin: 0;
+    padding: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-top: -6.25em;
+    margin-right: 0.7em;
+    
+    width: 30%;
+}
+
+section:nth-of-type(5) ul li img:nth-of-type(2):hover {
+    content: url(../img/home/red-heart.svg);
+}
+
+section:nth-of-type(5) ul li:nth-of-type(1) p:nth-of-type(1) {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    color: var(--text-color-green);
+    line-height: 1.3em;
+    height: 4.5em;
+
+    margin-top: 1.5em;
+    
+    text-transform: uppercase; 
+}
+
+section:nth-of-type(5) ul li:nth-of-type(1) p:nth-of-type(2) {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    color: var(--text-color-black);
+    
+    text-transform: uppercase; 
+}
+
+section:nth-of-type(5) ul li a {
+    margin: 0;
+    padding: 0;
+
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1.4em;
+
+    font-family: 'brandon-grotesque', sans-serif;
+    color: var(--text-color-green);
+    font-size: 1em;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: var(--background-color);
+}
+
+section:nth-of-type(5) ul li:nth-of-type(2) img:nth-of-type(1) {
+    margin: 0;
+    padding: 0;
+    
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 14em;
+}
+
+section:nth-of-type(5) ul li:nth-of-type(2) img:nth-of-type(2) {
+    margin: 0;
+    padding: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-top: -6.25em;
+    margin-right: 0.7em;
+    
+    width: 30%;
+}
+
+section:nth-of-type(5) ul li:nth-of-type(2) p:nth-of-type(1) {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    color: var(--text-color-green);
+    line-height: 1.3em;
+    height: 4.5em;
+
+    margin-top: 1.5em;
+    
+    text-transform: uppercase; 
+}
+
+section:nth-of-type(5) ul li:nth-of-type(2) p:nth-of-type(2) {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    color: var(--text-color-black);
+    
+    text-transform: uppercase; 
+}
+
+section:nth-of-type(5) ul li:nth-of-type(3) img:nth-of-type(1) {
+    margin: 0;
+    padding: 0;
+    
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 14em;
+}
+
+section:nth-of-type(5) ul li:nth-of-type(3) img:nth-of-type(2) {
+    margin: 0;
+    padding: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-top: -6.25em;
+    margin-right: 0.7em;
+    
+    width: 30%;
+}
+
+section:nth-of-type(5) ul li:nth-of-type(3) p:nth-of-type(1) {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    color: var(--text-color-green);
+    line-height: 1.3em;
+    height: 4.5em;
+
+    margin-top: 1.5em;
+    
+    text-transform: uppercase; 
+}
+
+section:nth-of-type(5) ul li:nth-of-type(3) p:nth-of-type(2) {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 700;
+    font-size: 1.6em;
+    color: var(--text-color-black);
+
+    text-transform: uppercase; 
+}
+
+/* vijfde section styling eind */
+
+/* footer styling */
+
+footer {
+    margin: 10em 1.5em 5em 1.5em;
+
+    background-image: url(../img/home/pattern-mobile.svg);
+    background-size: 2.5em;
+    background-repeat: repeat-y;
+    height: 58.8em;
+
+    margin-bottom: 30em;
+}
+
+footer h3 {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: var(--text-color-green);
+
+    margin-left: 3em;
+}
+
+footer h3 span {
+    font-family: 'claude sans', sans-serif;
+    text-transform: lowercase;
+    color: var(--text-color-red);
+}
+
+footer ul {
+    margin-left: 4.7em;
+}
+
+footer ul:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-top: 1em;
+    list-style-type: none;
+}
+
+footer ul:nth-of-type(1) li a {
+    margin: 1em 0em;
+    padding: 0;
+
+    background-color: unset;
+    box-shadow: unset;
+    border-radius: unset;
+
+    font-family: 'brandon-grotesque';
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--text-color-black);
+
+    text-decoration: none;
+}
+
+footer ul:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-top: 1em;
+    list-style-type: none;
+}
+
+footer ul:nth-of-type(2) li a {
+    margin: 1em 0em;
+    padding: 0;
+
+    background-color: unset;
+    box-shadow: unset;
+    border-radius: unset;
+
+    font-family: 'brandon-grotesque';
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--text-color-black);
+
+    text-decoration: none;
+}
+footer h3:nth-of-type(2) {
+    margin-top: 3em;
+}
+
+footer ul:nth-of-type(2) li:nth-of-type(1) {
+    margin: 0;
+    padding: 0;
+}
+
+footer h3:nth-of-type(3) {
+    margin: 0;
+    text-align: center;
+}
+
+footer ul:nth-of-type(3) {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+}
+
+footer ul:nth-of-type(3) li {
+    margin: 0;
+    padding: 0;
+
+    margin-right: .75em;
+}
+
+footer ul:nth-of-type(3) li a {
+    margin: 0;
+    padding: 0;
+
+    background-color: unset;
+    box-shadow: unset;
+
+    margin-top: 1em;
+}
+
+footer ul:nth-of-type(3) li a img {
+    margin: 0;
+    padding: 0;
+
+    width: 3em;
+}
+
+footer img {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+
+    width: 20em;
+    cursor: pointer;
+}
+
+footer ul:nth-of-type(4) {
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer ul:nth-of-type(4) li {
+    margin: .5em;
+}
+
+footer ul:nth-of-type(4) li img {
+    margin: 0;
+    padding: 0;
+
+    width: 3.5em;
+    cursor: pointer;
+}
+
+footer p {
+    font-family: 'brandon-grotesque', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+
+    margin-top: 2em;
+    
+    color: var(--text-color-black);
+}
+
+/* eind footer styling */
+
+/* fundraising pagina styling */
+
+.fundraising-main h1 {
+    padding-top: 1em;
+    color: var(--text-color-green);
+}
+
+.fundraising-main p {
+    color: var(--text-color-red);
+    margin-bottom: 2em;
+}
+
+.fundraising-main p:nth-of-type(2) {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.125em;
+
+    margin-top: 1em;
+
+    color: var(--text-color-black);
+}
+
+.fundraising-main p:nth-of-type(2) a {
+    padding: 0;
+    margin: 0;
+
+    display: unset;
+    background: unset;
+    box-shadow: unset;
+    background-color: unset;
+
+    color: var(--text-color-red);
+    transition: unset;
+}
+
+.fundraising-main > a {
+    margin: 0;
+    padding: 0;
+
+    margin-left: 8em;
+    margin-right: 8em;
+    margin-top: 3em;
+
+    transition: .5s;
+    background-color: var(--second-button-color); 
+    box-shadow: 0em 0.625em 1.875em -0.125em rgba(0,0,0,0.25);
+}
+
+.fundraising-main a:focus {
+    background-color: #92071c ;
+}
+
+.fundraising-main a:active {
+    background-color: #610412;
+}
+
+.fundraising-main > a > p {
+    font-size: 1.125em;
+    color: var(--text-color-white);
+    
+    margin: 0;
+    padding: 0;
+    padding: .75em 0em;
+}
+
+.fundraising-main > img:nth-of-type(1) {
+    margin-top: 2em;
+    width: 31.2em;
+}
+
+.fundraising-main > section:nth-of-type(1) {
+    background-image: unset;
+    background-color: #F5F6F8;
+
+    margin: 0;
+    padding: 0;
+    margin-top: -.5em;
+    height: 87em;
+}
+
+.fundraising-main iframe {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundraising-main > section:nth-of-type(1) > h1 {
+    font-size: 1.75em;
+    line-height: 1em;
+
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.fundraising-main > section:nth-of-type(1) > p:nth-of-type(1) {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.125em;
+
+    margin-top: 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+    color: var(--text-color-black);
+} 
+
+.fundraising-main > section:nth-of-type(1) > h3 {
+    font-family: 'brandon-grotesque';
+    text-transform: uppercase;
+    text-align: center;
+
+    margin-top: 4em;
+}
+
+.fundraising-main > section:nth-of-type(1) > ul {
+    margin-top: 2em;
+}
+
+.fundraising-main > section:nth-of-type(1) > ul li img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundraising-main > section:nth-of-type(1) > ul li p {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.125em;
+
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    color: var(--text-color-black);
+}
+
+.fundraising-main > h1:nth-of-type(2) {
+    text-align: left;
+    margin-left: .5em;
+}
+
+.fundraising-main > p:nth-of-type(3) {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.125em;
+    text-align: left;
+    white-space: pre-line;
+
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    color: var(--text-color-black);
+}
+
+.fundraising-main > img:nth-of-type(2) {
+    width: 90%;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4em;
+}
+
+.fundraising-main > p:nth-of-type(4) {
+    font-family: brandon-grotesque, sans-serif;
+    font-size: 1.125em;
+
+    margin-top: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
+
+    color: var(--text-color-black);
+}
+
+.fundraising-main > p:nth-of-type(4) > a {
+    padding: 0;
+    margin: 0;
+
+    display: unset;
+    background: unset;
+    box-shadow: unset;
+    background-color: unset;
+
+    color: var(--text-color-red);
+    transition: unset;
+}
+
+.fundraising-main > footer > p {
+    color: var(--text-color-black);
+}
+
+/* eind styling fundraising pagina */

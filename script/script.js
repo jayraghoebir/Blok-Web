@@ -1,27 +1,33 @@
+// Variabelen declareren
+// Iconen
 var madeFresh = document.getElementById("madefresh");
 
 var handCrafted = document.getElementById("handcrafted");
 
 var hotLight = document.getElementById("hotlight");
 
+// Hamburger menu assets
+
 var menuKruis = document.getElementById("menukruis");
 
 var hamburgerButton = document.getElementById("hamburgericon");
 
+// Navigatie
+
 var nav = document.getElementById("navigation");
 
-// madeFresh.addEventListener("mouseover", icon1hover)
-
-// function icon1hover() {
-//     img.src = '../img/home/Icon_Made_Fresh_Hover.png';
-// }
-
+// Er wordt een eventlistener toegevoegd aan de functies active en deactive. De eventlistener die toegevoegd is, is een klik.
+// Dat betekend dat als je klikt op de hamburger button wordt de functie active uitgevoerd en als je op de kruis in de uitgeklapte
+// menu klikt gaat hij weer dicht.
 hamburgerButton.addEventListener("click", active);
 menuKruis.addEventListener("click", deactive);
 
+// Er wordt een eventlistener toegevoegd aan de functies hoverkruis 1 en 2. Als je over de icons 
+// hovert veranderd hij van icon. Van normaal wit naar donker groen.
 menuKruis.addEventListener("mouseover", hoverKruis);
 menuKruis.addEventListener("mouseout", hover2Kruis);
 
+// Er wordt een evenlistener toegevoegd voor de iconen om het te veranderen van afbeelding. 
 madeFresh.addEventListener("mouseover", hoverIcon1);
 madeFresh.addEventListener("mouseout", hover2Icon1);
 
@@ -32,6 +38,7 @@ hotLight.addEventListener("mouseover", hoverIcon3);
 hotLight.addEventListener("mouseout", hover2Icon3);
 
 
+// functies worden hier aangemaakt en aangeroepen
 function active(){
     nav.classList.add("toonmenu");
 }
