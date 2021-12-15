@@ -65,10 +65,10 @@ Fundraising pagina Krispy Kreme website
 ### Dynamisch deel (menu): 
 <img src="images/Breakdownschets-FED-Raghoebir-Jay-menu.jpg" width="375px" alt="Breakdown van de menu">
 
-### wellicht nog een dynamisch deel (bijv filter): 
+<!-- ### wellicht nog een dynamisch deel (bijv filter): 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
-</details>
+</details> -->
 
 
 
@@ -133,12 +133,7 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
-
-- punt 1
-- punt 2
-- nog een punt
-- ...
+Ik was er niet bij de meeting, want ik was ziek. Ik heb geen feedback dus gekregen op mijn werk. De volgende week heb ik alles weer opgepakt en was ik er wel bij (lees volgende voortgang).
 
 </details>
 
@@ -208,11 +203,18 @@ Oplossing: Door een screenreader te gebruiken die te besturen is met je stem.
 ## Voortgang 3 (week 4)
 
 <details>
-<summary>uitwerken voor 3e voortgang</summary>
+<!-- <summary>uitwerken voor 3e voortgang</summary> -->
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het coderen ging steeds beter. Door mijn bronnen heb ik bepaalde dingen uit kunnen werken en het werkt nu wel. Zoals mijn hamburger menu kreeg ik niet aan de praat. Uiteindelijk door middel van css en een beetje javascript is het gelukt om de menu in en uit te klappen. Ik ben nog niet heel erg ver met code schrijven. Ik moet nog de footer maken en een deel van de content schrijven en stylen. Ik heb wel goed mijn breakdownschets gemaakt, dus gelukkig weet ik hoe het moet.
 
+<img src="images/zwarte-rondjes-bril.png" width="375px" alt="Zwarte rondjes bril">
+ 
+<img src="images/zwarte-rondjes-bril.png" width="375px" alt="Zwarte rondjes bril">
+ 
+<img src="images/zwarte-rondjes-bril.png" width="375px" alt="Zwarte rondjes bril">
+ 
+<img src="images/zwarte-rondjes-bril.png" width="375px" alt="Zwarte rondjes bril">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -225,12 +227,13 @@ samen met je groepje opstellen
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Door de meeting heb ik nog mijn laatste feedback kunnen krijgen. Zie hieronder mijn punten.
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Linkje om hamburger menu icon en kruis icon bij het tabben. (ik had er gewoon een img van gemaakt geen link).
+- De height van de header staat er twee keer in. Het mag er maar een keer in staan.
+- Alles van % en px naar em veranderen.
+- Tweede pagina erbij maken en linken.
+- States toevoegen bij de buttons etc.
 
 </details>
 
