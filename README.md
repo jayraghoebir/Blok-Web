@@ -66,9 +66,8 @@ Fundraising pagina Krispy Kreme website
 <img src="images/Breakdownschets-FED-Raghoebir-Jay-menu.jpg" width="375px" alt="Breakdown van de menu">
 
 <!-- ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-</details> -->
+<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel"> -->
+</details>
 
 
 
@@ -255,11 +254,29 @@ De tweede pagina maken ging heel snel! Ik was er binnen een paar uur mee klaar. 
 
 ### Screenshot(s)
 Pagina 1 Home:
-<img src="images/kkwebsite-final-pagina1.png" width="375px" alt="Final homepage design screenshot">
+ 
+ <img src="images/kkwebsite-final-pagina1.png" width="375px" alt="Final homepage design screenshot">
 
+ 
 Pagina 2 Fundraising:
-<img src="images/kkwebsite-final-pagina2.png" width="375px" alt="Final fundraising page design screenshot">
 
+ <img src="images/kkwebsite-final-pagina2.png" width="375px" alt="Final fundraising page design screenshot">
+
+ 
+Markup validator pagina 1:
+ 
+ <img src="images/markup-validator-pagina1-kkwebsite.png" width="375px" alt="Markup validator pagina 1">
+ 
+ 
+Markup validator pagina 2:
+ 
+ <img src="images/markup-validator-pagina2-kkwebsite.png" width="375px" alt="Markup validator pagina 2">
+ 
+ 
+CSS validator:
+ 
+ <img src="images/css-validator-kkwebsite.png" width="375px" alt="CSS validator">
+ 
 </details>
 
 
