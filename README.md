@@ -166,7 +166,7 @@ We kregen brillen om vervolgens door de brillen heen te kijken naar je website t
 Bril 1 (wazig) ;
 Ik kon hier prima doorheen kijken, het was niet heel erg wazig namelijk. Ik kon mijn website goed navigeren.
 
-<img src="wazige-bril.png" width="375px" alt="Wazige bril">
+<img src="images/wazige-bril.png" width="375px" alt="Wazige bril">
 
 Oplossing: Een screenreader gebruiken die navigeert door je website heen. States toepassen zoals hover, focus en active.
  
@@ -174,7 +174,7 @@ Oplossing: Een screenreader gebruiken die navigeert door je website heen. States
 Bril 2 (vlekjes) ;
 Ik kon alles hier doorheen zien. Het was niet moeilijk om door mijn website heen te navigeren. Ik zag wel iets minder met de bril dan zonder de bril.
 
-<img src="vlek-bril.png" width="375px" alt="Vlek bril">
+<img src="images/vlek-bril.png" width="375px" alt="Vlek bril">
  
 Oplossing: Een screenreader gebruiken die navigeert door je website heen. States toepassen zoals hover, focus en active. 
  
