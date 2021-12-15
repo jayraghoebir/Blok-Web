@@ -208,13 +208,17 @@ Oplossing: Door een screenreader te gebruiken die te besturen is met je stem.
 ### Stand van zaken
 Het coderen ging steeds beter. Door mijn bronnen heb ik bepaalde dingen uit kunnen werken en het werkt nu wel. Zoals mijn hamburger menu kreeg ik niet aan de praat. Uiteindelijk door middel van css en een beetje javascript is het gelukt om de menu in en uit te klappen. Ik ben nog niet heel erg ver met code schrijven. Ik moet nog de footer maken en een deel van de content schrijven en stylen. Ik heb wel goed mijn breakdownschets gemaakt, dus gelukkig weet ik hoe het moet.
 
-<img src="images/zwarte-rondjes-bril.png" width="375px" alt="Zwarte rondjes bril">
+<img src="images/button-normaal.png" width="375px" alt="Button normaal">
  
-<img src="images/zwarte-rondjes-bril.png" width="375px" alt="Zwarte rondjes bril">
+<img src="images/button-focus.png" width="375px" alt="Button focus">
  
-<img src="images/zwarte-rondjes-bril.png" width="375px" alt="Zwarte rondjes bril">
+<img src="images/button-active.png" width="375px" alt="Button active">
  
-<img src="images/zwarte-rondjes-bril.png" width="375px" alt="Zwarte rondjes bril">
+<img src="images/hamburgermenu-css-code.png" width="375px" alt="Hamburger menu css code">
+
+<img src="images/hamburgermenu-js.png" width="375px" alt="Hamburger menu js code">
+ 
+<img src="images/hamburgermenu-js-functies.png" width="375px" alt="Hamburger menu js functies code">
 
 ### Agenda voor meeting
 samen met je groepje opstellen
@@ -247,11 +251,14 @@ Door de meeting heb ik nog mijn laatste feedback kunnen krijgen. Zie hieronder m
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De tweede pagina maken ging heel snel! Ik was er binnen een paar uur mee klaar. Ik heb dezelfde stylesheet gebruikt van pagina 1. Alle styling zat er dus al in. Als ik iets veranderd wou hebben ging dat ook makkelijk. Het coderen ging nu ook een stuk sneller, omdat ik in de flow zat. Ik heb alle states toegevoegd. Veel hover states. Een aantal active states en focus states. Ik heb ook gespeeld met transitions en mijn eigen draai aan de buttons gegeven. Overall een eigen gecodeerde website neergezet zonder warnings of fouten in de CSS en HTML!.
 
 ### Screenshot(s)
+Pagina 1 Home:
+<img src="images/kkwebsite-final-pagina1.png" width="375px" alt="Final homepage design screenshot">
 
-hier screenshot(s) van je eindresultaat
+Pagina 2 Fundraising:
+<img src="images/kkwebsite-final-pagina2.png" width="375px" alt="Final fundraising page design screenshot">
 
 </details>
 
@@ -271,8 +278,10 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 3. https://extract.pics/
 4. https://www.youtube.com/watch?v=OFKBep95lb4
 5. https://www.w3schools.com/html/html_youtube.asp
-6. Studentassistent: Bo
-7. Humty oefening (voor de hamburger menu)
+6. https://validator.w3.org/
+7. https://jigsaw.w3.org/css-validator/
+7. Studentassistent: Bo
+8. Humty oefening (voor de hamburger menu)
 
 
 </details>
