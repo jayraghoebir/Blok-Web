@@ -267,8 +267,9 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 2. https://stackoverflow.com/questions/2703601/how-to-line-break-from-css-without-using-br
 3. https://extract.pics/
 4. https://www.youtube.com/watch?v=OFKBep95lb4
-5. Studentassistent: Bo
-6. Humty oefening (voor de hamburger menu)
+5. https://www.w3schools.com/html/html_youtube.asp
+6. Studentassistent: Bo
+7. Humty oefening (voor de hamburger menu)
 
 
 </details>
