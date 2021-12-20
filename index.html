@@ -18,13 +18,16 @@
 
     <header>
         <!-- buttons en logo in header -->
-        <button><img src="img/home/hamburger-menu-icon.svg" alt="Hamburger menu icon" id="hamburgericon"></button>
-        <a href="#"><img src="img/home/kk_logo.svg" alt="Krispy Kreme logo" id="logokk"></a>
-        <button><img src="img/home/basket-icon.svg" alt="Basket icon" id="winkelwagen"></button>  
+        <button id="hamburgerbutton"><img src="img/home/hamburger-menu-icon.svg" alt="Hamburger menu icon"></button>
         
-        <!-- hamburger menu navigatie met de id navigatie -->
-        <nav id="navigation">
-            <button><img src="img/home/menu-kruis.svg" alt="Hamburger menu sluiten" id="menukruis"></button>
+        <a href="#"><img src="img/home/kk_logo.svg" alt="Krispy Kreme logo"></a>
+
+        <button><img src="img/home/basket-icon.svg" alt="Basket icon"></button>
+
+        <!-- (mobiel) navigatie -->
+        <nav>
+            <button id="menukruis"><img src="img/home/menu-kruis.svg" alt="Hamburger menu sluiten"></button>
+            
             <a href="#"><img src="img/home/kk_logo.svg" alt="Krispy Kreme logo"></a>
             
             <ul>
@@ -40,88 +43,73 @@
 
             <p>Can’t find what you’re looking for?</p>
             
-            <input type="search" placeholder="Enter your search" id="searchnav">
+            <input type="search" placeholder="Enter your search">
         </nav>
-        <!-- eind hamburger menu navigatie -->
-
+        <!-- eind mobiel navigatie -->
     </header>
 
     <main>
-        <!-- div voor het groene vlak onder de header -->
         <div></div>
-        
-        <!-- eerste section, je ziet gelijk de achtergrond image en tekst erop -->
+
+        <!-- eerste section -->
         <section> 
-        <!-- nth of type 1 -->
+            <!-- nth of type 1 -->
             <p>Introducing...</p>
             <h1>Decadent dessert doughnuts</h1>
-
+    
             <a href="https://www.krispykreme.co.uk/shop.html">
-                <p>Shop now</p>
+                SHOP NOW
                 <img src="img/home/arrow_in_button-02.svg" alt="Arrow in button">
             </a>
             <img src="img/home/Hero_Decadent_Desserts.png" alt="Krispy Kreme donut box homepage">
         </section>
-        <!-- eind eerste section -->
 
+        <!-- tweede section -->
         <section>
-        <!-- nth of type 2 -->
+            <!-- nth of type 2 -->
             <p>Krispy Kreme Rewards</p>
-
-            <h1>Earn smiles,
-                spend smiles!
-            </h1>
-
+            <h2>Earn smiles, spend smiles!</h2>
+        
             <p>Just when you thought Krispy Kreme couldn’t get any more ‘O so sweet’, along comes Krispy Kreme Rewards. Earn sweet <span>Smiles</span> and spend them on scrumptious treats.
-                <br><br>The more <span>Smiles</span> you earn, the bigger, the gooier, and more indulgent a treat you can spend them on.
+                The more <span>Smiles</span> you earn, the bigger, the gooier, and more indulgent a treat you can spend them on.
             </p>
-
+        
             <a href="https://www.krispykreme.co.uk/rewards">
-                <p>Find out more</p>
+                FIND OUT MORE
                 <img src="img/home/arrow_in_button-02.svg" alt="Arrow in button">
             </a>
-
             <img src="img/home/rewards_app_image.jpg" alt="Rewards app image">
         </section>
-        <!-- eind tweede section -->
 
-        <!-- eerste img in de main (fundraising image) -->
-        <img src="img/home/Fundraising_Section_Desktop_1.jpg" alt="Fundraising image homepage">
-        <!-- img nth of type 1 -->
-
+        <!-- derde section -->
         <section>
-         <!-- nth of type 3 -->
+            <!-- nth of type 3 -->
+            <img src="img/home/Fundraising_Section_Desktop_1.jpg" alt="Fundraising image homepage">
+
             <p>The sweetest way to raise money</p>
-
-            <h1>Fundraising doughnuts</h1>
-
+            <h2>Fundraising doughnuts</h2>
+   
             <p>Whether you are a charity looking to raise money at a specific event or an individual looking for a different way to hit that sponsorship target, our discounted dozens are a great fundraising idea!</p>
-
-            <a href="fundraising.html">
-                <p>How it works</p>
-            </a>
+   
+            <a href="fundraising.html">HOW IT WORKS</a>
         </section>
-        <!-- eind derde section -->
 
-        <!-- de twee afbeeldingen met een pijl erin -->
-        <ul class="boxes">
+        <!-- eerste ul -->
+        <ul>
             <!-- ul nth of type 1 -->
-            <li>
-                <img src="img/home/arrow-in-circle-02.svg" alt="Arrow in circle">
-            </li>
-            <li>
-                <img src="img/home/arrow-in-circle-02.svg" alt="Arrow in circle">
-            </li>
+            <li><img src="img/home/arrow-in-circle-02.svg" alt="Arrow in circle"></li>
+            <li><img src="img/home/arrow-in-circle-02.svg" alt="Arrow in circle"></li>
         </ul>
-        <!-- eind van de eerste ul -->
 
+        <!-- vierde section -->
         <section>
-        <!-- nth of type 4 -->
-            <h1>Serving smiles safely</h1>
-
+            <!-- nth of type 4 -->
+            <h2>Serving smiles safely</h2>
+    
             <p>We continue to follow government guidelines to keep our staff and customers safe and smiling!
-                You can <a href="https://www.krispykreme.co.uk/coronavirus">read about our approach here</a></p>
-
+                You can <a href="https://www.krispykreme.co.uk/coronavirus">read about our approach here</a>
+            </p>
+    
             <ul>
                 <li>
                     <img src="img/home/click_and_collect_2x.jpg" alt="Click and collect pick up point">
@@ -138,64 +126,58 @@
                     <h3>Delivery to your door</h3>
                     <p>Order made fresh daily doughnuts through our website for scheduled delivery. You can also find us on Deliveroo, Just Eat and UberEats to get doughnuts today!</p>
                 </li>
-
             </ul>
         </section>
-        <!-- eind vierde section -->
 
+        <!-- tweede ul -->
         <ul>
             <!-- ul nth of type 2 -->
             <li>
-                <img id="madefresh" src="img/home/Icon_Made_Fresh.png" alt="Icon made fresh">
+                <img src="img/home/Icon_Made_Fresh.png" alt="Icon made fresh">
             </li>
             <li>
-                <img id="handcrafted" src="img/home/Icon_Hand_Crafted.png" alt="Icon hand crafted">
+                <img src="img/home/Icon_Hand_Crafted.png" alt="Icon hand crafted">
             </li>
             <li>
-                <img id="hotlight" src="img/home/Icon_Hotlight.png" alt="Icon hot light">
+                <img src="img/home/Icon_Hotlight.png" alt="Icon hot light">
             </li>
         </ul>
-        <!-- einde tweede ul -->
 
+        <!-- vijfde section -->
         <section>
-        <!-- section nth of type 5 -->
+            <!-- section nth of type 5 -->
             <p>Today's</p>
-
-            <h1>Popular orders</h1>
-
+            <h2>Popular orders</h2>
+    
             <ul>
                 <li>
                     <img src="img/home/decadent-21_nd_shop-960x720_lidon.png" alt="Decadent dozen picture">
-                    <img src="img/home/black-heart.svg" alt="Black heart icon">
-
-                    <p>Decadent Dozen</p>
+    
+                    <h3>Decadent Dozen</h3>
                     <p>£ 14.45</p>
-
-                    <a href="#">Find out more</a>
+    
+                    <a href="#">FIND OUT MORE</a>
                 </li>
                 <li>
                     <img src="img/home/decadent-21-og-dd--960x720px.png" alt="Decadent & original glazed picture">
-                    <img src="img/home/black-heart.svg" alt="Black heart icon">
-
-                    <p>Decadent & original glazed double dozen</p>
+    
+                    <h3>Decadent & original glazed double dozen</h3>
                     <p>£ 20.45</p>
-
-                    <a href="#">Find out more</a>
+    
+                    <a href="#">FIND OUT MORE</a>
                 </li>
                 <li>
                     <img src="img/home/decadent-21-favourites-dd--960x720px.png" alt="Decadent & favourites picture">
-                    <img src="img/home/black-heart.svg" alt="Black heart icon">
-
-                    <p>Decadent & favourites double dozen</p>
+    
+                    <h3>Decadent & favourites double dozen</h3>
                     <p>£ 22.45</p>
-
-                    <a href="#">Find out more</a>
+    
+                    <a href="#">FIND OUT MORE</a>
                 </li>
             </ul>
         </section>
-        <!-- eind vijfde section -->
 
-        <!-- footer (onderaan de pagina) -->
+        <!-- begin footer -->
         <footer>
             <h3>Exciting <span>stuff</span></h3>
             <ul>
@@ -218,7 +200,7 @@
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Cookie Policy</a></li>
                 <li><a href="#">Terms And Conditions</a></li>
-                <li><a href="#">bGender Pay Gap Report</a></li>
+                <li><a href="#">Gender Pay Gap Report</a></li>
             </ul>
 
             <h3>Join the <span>fun!</span></h3>
@@ -245,9 +227,9 @@
 
             <p>© 2021 KKD Corporation</p>
         </footer>
+        <!-- eind footer -->
     </main>
-
+   
     <script src="script/script.js"></script>
-    
 </body>
 </html>

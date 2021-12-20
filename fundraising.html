@@ -1,3 +1,4 @@
+<!-- bolerplate html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,19 +11,24 @@
         @import url("https://use.typekit.net/lsn4bkm.css");
       </style>
 </head>
+<!-- eind boilerplate -->
+
 <body>
     <!-- body fundraising pagina -->
 
     <header>
         <!-- buttons en logo in header -->
-        <button><img src="img/home/hamburger-menu-icon.svg" alt="Hamburger menu icon" id="hamburgericon"></button>
-        <a href="#"><img src="img/home/kk_logo.svg" alt="Krispy Kreme logo" id="logokk"></a>
-        <button><img src="img/home/basket-icon.svg" alt="Basket icon" id="winkelwagen"></button>  
+        <button id="hamburgerbutton"><img src="img/home/hamburger-menu-icon.svg" alt="Hamburger menu icon"></button>
         
-        <!-- hamburger menu navigatie met de id navigatie -->
-        <nav id="navigation">
-            <button><img src="img/home/menu-kruis.svg" alt="Hamburger menu sluiten" id="menukruis"></button>
-            <a href="#"><img src="img/home/kk_logo.svg" alt="Krispy Kreme logo"></a>
+        <a href="index.html"><img src="img/home/kk_logo.svg" alt="Krispy Kreme logo"></a>
+
+        <button><img src="img/home/basket-icon.svg" alt="Basket icon"></button>
+
+        <!-- (mobiel) navigatie -->
+        <nav>
+            <button id="menukruis"><img src="img/home/menu-kruis.svg" alt="Hamburger menu sluiten"></button>
+            
+            <a href="index.html"><img src="img/home/kk_logo.svg" alt="Krispy Kreme logo"></a>
             
             <ul>
                 <li><a href="#">MENU</a></li>
@@ -37,16 +43,16 @@
 
             <p>Can’t find what you’re looking for?</p>
             
-            <input type="search" placeholder="Enter your search" id="searchnav">
+            <input type="search" placeholder="Enter your search">
         </nav>
-        <!-- eind hamburger menu navigatie -->
-
+        <!-- eind mobiel navigatie -->
     </header>
 
     <main class="fundraising-main">
+        <!-- groene blok boven aan de pagina -->
         <div></div>
 
-        <!-- eerste heading -->
+        <!-- Heading -->
         <h1>FUNDRAISING DOUGHNUTS</h1>
 
         <!-- eerste paragraaf -->
@@ -60,64 +66,70 @@
 
         <!-- eerste button -->
         <a href="#">
-            <p>Let's get started</p>
+            LET'S GET STARTED
             <img src="img/home/arrow_in_button-02.svg" alt="Arrow in button">
         </a>
 
-        <!-- eerste image in de main -->
+        <!-- afbeelding ertussen -->
         <img src="img/fundraising/Fundraising_hero_mobile.jpeg" alt="Fundraising coins">
-        
-        <!-- eerste section in de main -->
+
+        <!-- eerste section -->
         <section>
             <!-- youtube video code -->
-            <iframe width="480" height="300" src="https://www.youtube.com/embed/1fWosgbq9u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="350" src="https://www.youtube.com/embed/1fWosgbq9u4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
-            <h1>FUNDRAISING WITH ORIGINAL GLAZED DOUGHNUTS</h1>
+            <h3>FUNDRAISING WITH ORIGINAL GLAZED DOUGHNUTS</h3>
             <p>Whether you are a charity looking to raise money at a specific event or an individual looking for a
-                different way to hit that sponsorship target, our discounted dozens are a great fundraising idea!
+            different way to hit that sponsorship target, our discounted dozens are a great fundraising idea!
             </p>
 
             <h3>How it works</h3>
             <ul>
-                <li><img src="img/fundraising/number1.png" alt="Number one">
+                <li>
+                    <img src="img/fundraising/number1.png" alt="Number one">
                     <p>Purchase your Krispy Kreme fundraising doughnuts at a discounted price from the Krispy Kreme website.</p>
                 </li>
-                <li><img src="img/fundraising/number2.png" alt="Number two">
+                <li>
+                    <img src="img/fundraising/number2.png" alt="Number two">
                     <p>Collect your doughnuts and sell your freshly made doughnuts at your fundraising event on the day of collection.</p>
                 </li>
-                <li><img src="img/fundraising/number3.png" alt="Number three">
+                <li>
+                    <img src="img/fundraising/number3.png" alt="Number three">
                     <p>Send all the money you’ve raised to your chosen charity and tell us much you raised - we'll send you a reminder to let us know!</p>
                 </li>
             </ul>
         </section>
-        <!-- einde eerste section -->
+        <!-- eind eerste section -->
 
-        <!-- tweede heading -->
-        <h1>WHAT NEXT?</h1>
+        <!-- tweede section -->
+        <section>
+            <ul>
+                <li>
+                    <h2>WHAT NEXT?</h2>
 
-        <!-- derde paragraaf in de main -->
-        <p>First, decide how many doughnuts you need and the date you require them (minimum order is 5 dozen, maximum is 50 dozen per event, per day). We'll need 5 days notice of your fundraising requirements.
-
-            Next, place your enquiry with us online. Once your order has been successfully processed, collect your doughnuts on the day of your event from your chosen Krispy Kreme UK store.
-            
-            Our doughnuts are always made fresh daily and must be sold on the day of collection.
-        </p>
-
-        <!-- tussen image einde pagina -->
-        <img src="img/fundraising/Group_3-min.png" alt="Man putting doughnuts in box">
+                    <p>First, decide how many doughnuts you need and the date you require them (minimum order is 5 dozen, maximum is 50 dozen per event, per day). We'll need 5 days notice of your fundraising requirements.</p>
+                    <p>Next, place your enquiry with us online. Once your order has been successfully processed, collect your doughnuts on the day of your event from your chosen Krispy Kreme UK store.</p>  
+                    <p>Our doughnuts are always made fresh daily and must be sold on the day of collection.</p>
+                </li>
+                <li>
+                    <img src="img/fundraising/Group_3-min.png" alt="Man putting doughnuts in box">
+                </li>
+            </ul>
+        </section>
+        <!-- eind tweede section -->
 
         <!-- tweede button -->
         <a href="#">
-            <p>Let's get started</p>
+            LET'S GET STARTED
             <img src="img/home/arrow_in_button-02.svg" alt="Arrow in button">
         </a>
 
-        <!-- vierde paragraaf -->
+        <!-- derde paragraaf -->
         <p>If you have any questions, please call our Customer Care team on <a href="#">01489 576100</a> or email us at <a href="#">customercare@krispykreme.co.uk</a> 
             Please make sure you have read our <a href="#">terms and conditions</a> and that you share nutritional information on the day of your fundraising event.
         </p>
 
-        <!-- footer (onderaan de pagina) -->
+        <!-- begin footer -->
         <footer>
             <h3>Exciting <span>stuff</span></h3>
             <ul>
@@ -140,7 +152,7 @@
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Cookie Policy</a></li>
                 <li><a href="#">Terms And Conditions</a></li>
-                <li><a href="#">bGender Pay Gap Report</a></li>
+                <li><a href="#">Gender Pay Gap Report</a></li>
             </ul>
 
             <h3>Join the <span>fun!</span></h3>
@@ -167,6 +179,7 @@
 
             <p>© 2021 KKD Corporation</p>
         </footer>
+        <!-- eind footer -->
     </main>
 
     <script src="script/script.js"></script>
